@@ -1,0 +1,30 @@
+{
+    "store.custom#institutionalOne": {
+        "blocks": [
+            "flex-layout.row#institutionalOneRow-1",
+            "flex-layout.row#institutionalOneRow-2"
+        ]
+    },
+    "flex-layout.row#institutionalOneRow-1": {
+        "children": [
+            "rich-text#title-intitucional"
+        ]
+    },
+    "rich-text#title-intitucional": {
+        "props": {
+            "text": "[SEU-TÍTULO-AQUI]",
+            "blockClass": "title-default"
+        }
+    },
+    "flex-layout.row#institutionalOneRow-2": {
+        "children": [
+            "rich-text#info-intitutionalOne"
+        ]
+    },
+    "rich-text#info-intitutionalOne": {
+        "props": {
+            "text": "[SEU-TEXTO-AQUI]",
+            "blockClass": "infoPageContent"
+        }
+    }
+}

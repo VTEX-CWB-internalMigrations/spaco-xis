@@ -1,0 +1,52 @@
+{
+    "store.custom#reviews": {
+      "blocks": [
+        "flex-layout.row#titlePage",
+        "flex-layout.row#contentPage",
+        "flex-layout.row#addressPage"
+      ]
+    },
+    "flex-layout.row#titlePage": {
+      "children": [
+        "rich-text#titleDefault"
+      ]
+    },
+    "rich-text#titleDefault":{
+      "props":{
+        "text":"SEU-TITULO-AQUI",
+        "blockClass":"title-default"
+      }
+    },
+    "flex-layout.row#contentPage":{
+      "children":[
+        "rich-text#infoPageDescription"
+      ]
+    },
+    "rich-text#infoPageDescription":{
+      "props":{
+        "text":"CONTEÚDO AQUI",
+        "blockClass":"infoPageContent"
+      }
+    },
+    "flex-layout.row#addressPage":{
+      "children":[
+        "flex-layout.col#addressMap"
+      ],
+      "props":{
+        "blockClass":"contentMap"
+      }
+    },
+    "flex-layout.col#addressMap":{
+      "children":[
+        "sandbox#map"
+      ]
+    },
+    "sandbox#map":{
+      "props":{
+        "width": "100%",
+        "height": "60px",
+        "initialContent": "<div id='yv-show-form' style='min-height:300px; background-image:url(https://service.yourviews.com.br/static/images/loading.gif);background-repeat:no-repeat'> <br/><br/>Por favor aguarde... </div> <div class='clear'></div>  ",
+        "allowCookies": true
+      }
+    }
+  }

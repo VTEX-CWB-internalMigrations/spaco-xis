@@ -1,0 +1,45 @@
+.container {background:transparent;}
+.label {
+    width: 25px;
+    height: 24px;
+    display: block;    
+    text-indent: -9999px;
+    background: url(https://armazemdosopro.vteximg.com.br/arquivos/user-icon.png) no-repeat center center scroll transparent;
+}
+
+.accountOptions :global(.vtex-button) {
+    color: #fff;
+    border: 1px solid #3f3e00; 
+}
+
+.container :global(.vtex-button):hover .label{
+    color: #fff;
+}
+
+.container :global(.vtex-button):hover,
+.container :global(.vtex-button):focus {
+    background-color: #0d5788!important;
+}
+
+.button {
+    color: #3f3e00!important;
+    border: 1px solid #3f3e00; 
+}
+
+.backButton :global(.vtex-button):hover {
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 640px) {
+    .container{
+        background:#0e77bd;
+    }
+    .label{
+        background: transparent;
+        display:block;
+        text-indent: inherit;
+        width: auto;
+        height: auto;
+        color: #fff;
+    }
+}

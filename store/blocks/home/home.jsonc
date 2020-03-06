@@ -1,0 +1,445 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#One",
+      "image#whatsapp",
+      "slider-layout#brands",
+      "shelf#showcase01",
+      "shelf#showcase02",
+      "flex-layout.row#banners",
+      "shelf#showcase03",
+      "shelf#showcase04"
+    ]
+  },
+  "carousel#One": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner01___35502d7343f4ac84311b6ddda007ce02.jpg",
+          "mobileImage": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/002___e6e93fb70b233b06853a7640af5c049f.jpg",
+          "description": "Banner 001"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner02___fe6a2511bb8b5a3f2e27b8eedbbc084b.jpg",
+          "mobileImage": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/002___e6e93fb70b233b06853a7640af5c049f.jpg",
+          "description": "Banner 002"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner02___fe6a2511bb8b5a3f2e27b8eedbbc084b.jpg",
+          "mobileImage": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/002___e6e93fb70b233b06853a7640af5c049f.jpg",
+          "description": "Banner 002"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner02___fe6a2511bb8b5a3f2e27b8eedbbc084b.jpg",
+          "mobileImage": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/002___e6e93fb70b233b06853a7640af5c049f.jpg",
+          "description": "Banner 002"
+        }
+      ],
+      "height": 450,
+      "showArrows": true,
+      "showDots": false
+    }
+  },
+  "image#whatsapp": {
+    "props": {
+      "src": "https://abelvolks.vteximg.com.br/arquivos/bannerWhats2.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "WhatsImage"
+    }
+  },
+  "slider-layout#brands": {
+    "children": [
+      "image#one",
+      "image#two",
+      "image#three",
+      "image#four",
+      "image#five",
+      "image#six",
+      "image#seven",
+      "image#eight",
+      "image#nine",
+      "image#ten",
+      "image#eleven",
+      "image#twelve",
+      "image#thirteen",
+      "image#fourteen",
+      "image#fifteen",
+      "image#nineteen",
+      "image#twenty"
+    ],
+    "props": {
+      "blockClass": "brandSliderLayout",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "desktopOnly"
+    }
+  },
+  "image#one": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#two": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#three": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#four": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#five": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#six": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#seven": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#eight": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#nine": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#ten": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#eleven": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#twelve": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#thirteen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#fourteen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#fifteen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#sixteen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#seventeen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#nineteen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#twenty": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "shelf#showcase01": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "paginationDotsVisibility": "hidden",
+        "titleText": "ESPECIAIS DO ARMAZÉM"
+      }
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": false
+    }
+  },
+  "product-summary-buy-button": {
+    "props": {
+      "buyButtonText": "Comprar"
+    }
+  },
+  "product-summary-price": {
+    "props": {
+      "showLabels": false,
+      "showInstallments": true,
+      "showDiscountValue": true
+    }
+  },
+  // Showcase 02
+  "shelf#showcase02": {
+    "blocks": [
+      "product-summary.shelf#home2"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "consult-shelf",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "paginationDotsVisibility": "hidden",
+        "titleText": "PALHETA-DUPLA"
+      }
+    }
+  },
+  "product-summary.shelf#home2": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "consult-shelf"
+    }
+  },
+  "flex-layout.row#banners": {
+    "children": [
+      "flex-layout.col#firstBanner",
+      "flex-layout.col#fourthBanner",
+      "flex-layout.col#secondBanner",
+      "flex-layout.col#fifthBanner",
+      "flex-layout.col#thirdBanner"
+    ]
+  },
+  "flex-layout.col#firstBanner": {
+    "children": [
+      "info-card#firstBanner"
+    ],
+    "props": {
+      "blockClass": "footimagebox"
+    }
+  },
+  "flex-layout.col#secondBanner": {
+    "children": [
+      "info-card#secondBanner"
+    ],
+    "props": {
+      "blockClass": "footimagebox"
+    }
+  },
+  "flex-layout.col#thirdBanner": {
+    "children": [
+      "info-card#thirdBanner"
+    ],
+    "props": {
+      "blockClass": "footimagebox"
+    }
+  },
+  "flex-layout.col#fourthBanner": {
+    "children": [
+      "info-card#fourthBanner"
+    ],
+    "props": {
+      "blockClass": "footimagebox"
+    }
+  },
+  "flex-layout.col#fifthBanner": {
+    "children": [
+      "info-card#fifthBanner"
+    ],
+    "props": {
+      "blockClass": "footimagebox"
+    }
+  },
+  "info-card#firstBanner": {
+    "props": {
+      "isFullModeStyle": true,
+      "imageUrl": "https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl": "/saxofones",
+      "headline": "SAXOFONES",
+      "subhead": "Saxofone, é um instrumento de sopro patenteado em 1846 pelo belga Adolphe Sax."
+    }
+  },
+  "info-card#fourthBanner": {
+    "props": {
+      "isFullModeStyle": true,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/03/31/11/33/clarinet-4092904_960_720.jpg",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl": "/clarinetes",
+      "headline": "CLARINETES",
+      "subhead": "Clarinete, possui quatro registros: grave (Chalumeau), médio, agudo e super-agudo."
+    }
+  },
+  "info-card#secondBanner": {
+    "props": {
+      "isFullModeStyle": true,
+      "imageUrl": "https://images.pexels.com/photos/51937/oboe-music-tool-art-51937.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl": "/oboe",
+      "headline": "OBOÉS",
+      "subhead": "Oboé, membro da família das madeiras e de palheta dupla."
+    }
+  },
+  "info-card#thirdBanner": {
+    "props": {
+      "isFullModeStyle": true,
+      "imageUrl": "https://images.pexels.com/photos/2254140/pexels-photo-2254140.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "headline": "FLAUTAS",
+      "subhead": "Flauta é o mais versátil dos instrumentos de sopro."
+    }
+  },
+  "info-card#fifthBanner": {
+    "props": {
+      "isFullModeStyle": true,
+      "imageUrl": "https://armazemdosopro.vteximg.com.br/arquivos/fagote_adolfo.jpg",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl": "/saxofones",
+      "headline": "FAGOTES",
+      "subhead": "A palavra fagote deriva do italiano fagotto."
+    }
+  },
+  // Showcase 03
+  "shelf#showcase03": {
+    "blocks": [
+      "product-summary.shelf#home3"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "consult-shelf",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "paginationDotsVisibility": "hidden",
+        "titleText": "FACAS E GUILHOTINAS"
+      }
+    }
+  },
+  "product-summary.shelf#home3": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "consult-shelf"
+    }
+  },
+  // Showcase 04
+  "shelf#showcase04": {
+    "blocks": [
+      "product-summary.shelf#home4"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "consult-shelf",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "paginationDotsVisibility": "hidden",
+        "titleText": "PALHETA-SIMPLES"
+      }
+    }
+  },
+  "product-summary.shelf#home4": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "consult-shelf"
+    }
+  }
+}

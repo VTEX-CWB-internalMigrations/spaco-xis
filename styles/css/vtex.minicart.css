@@ -1,0 +1,32 @@
+.container :global(.vtex-button):hover,
+.container :global(.vtex-button):focus {
+    color: #3f3e00;
+    border: 1px solid #3f3e00;
+    background: transparent;
+}
+
+.container :global(.vtex-button) {
+    color: #ffffff;
+    background: #00ad09;
+}
+
+.itemDeleteIcon :global(.vtex-button):focus,
+.itemDeleteIcon :global(.vtex-button):hover {
+    background: #ffffff;
+}
+
+@media only screen and (min-width: 80em) {
+    .label{
+        display: block;
+        position: relative;
+    }
+    .badge{
+        top: -18px;
+        left: 12px;
+        width: auto;
+        padding: 4px 12px;
+    }
+    .contentSmall{
+        border: 0;
+    }
+}

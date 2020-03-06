@@ -1,0 +1,197 @@
+{
+    "store.custom#questions": {
+        "blocks": [
+            "flex-layout.row#questionTitle1",
+            "flex-layout.row#questionLine1",
+            "flex-layout.row#questionLine11",
+            "flex-layout.row#questionLine12",
+            "flex-layout.row#questionLine13",
+            "flex-layout.row#questionTitle2",
+            "flex-layout.row#questionLine2",
+            "flex-layout.row#questionLine21",
+            "flex-layout.row#questionLine22",
+            "flex-layout.row#questionLine23",
+            "flex-layout.row#questionTitle3",
+            "flex-layout.row#questionLine3",
+            "flex-layout.row#questionLine31",
+            "flex-layout.row#questionLine32",
+            "flex-layout.row#questionLine33",
+            "flex-layout.row#questionTitle4",
+            "flex-layout.row#questionLine4",
+            "flex-layout.row#questionLine41",
+            "flex-layout.row#questionLine42"
+        ]
+    },
+    "flex-layout.row#questionTitle1": {
+        "children": [
+            "rich-text#questionTitle"
+        ],
+        "props": {
+            "blockClass": "titleRow"
+        }
+    },
+    "flex-layout.row#questionTitle2": {
+        "children": [
+            "rich-text#questionTitle"
+        ],
+        "props": {
+            "blockClass": "titleRow"
+        }
+    },
+    "flex-layout.row#questionTitle3": {
+        "children": [
+            "rich-text#questionTitle"
+        ],
+        "props": {
+            "blockClass": "titleRow"
+        }
+    },
+    "flex-layout.row#questionTitle4": {
+        "children": [
+            "rich-text#questionTitle"
+        ],
+        "props": {
+            "blockClass": "titleRow"
+        }
+    },
+    "rich-text#questionTitle": {
+        "props": {
+            "text": "TÍTULO DA SESSÃO",
+            "blockClass": "questionTitle"
+        }
+    },
+    "flex-layout.row#questionLine1": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine11": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine12": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine13": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine14": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine2": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine21": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine22": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine23": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine3": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine31": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine32": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine33": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine4": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine41": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "flex-layout.row#questionLine42": {
+        "children": [
+            "rich-text#questionText"
+        ],
+        "props": {
+            "blockClass": "flexQuestion"
+        }
+    },
+    "rich-text#questionText": {
+        "props": {
+            "text": "#### SEU TEXTO AQUI",
+            "blockClass": "questionText"
+        }
+    }
+}

@@ -1,0 +1,167 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#allCategories",
+      "menu-item#toys",
+      "menu-item#utilities",
+      "menu-item#decoration",
+      "menu-item#bed",
+      "menu-item#travel",
+      "menu-item#eletronics",
+      "menu-item#wallets"
+    ],
+    "props": {
+      "blockClass": "mainMenu",
+      "showSubcategories": true
+    }
+  },
+  "menu-item#allCategories": {
+    "props": {
+      "id": "menu-item-category-allDepartments",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Todos os departamentos",
+        "text": "Todos os departamentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#toys": {
+    "props": {
+      "id": "menu-item-category-toys",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Brinquedos",
+        "text": "Brinquedos"
+      }
+    }
+  },
+  "menu-item#utilities": {
+    "props": {
+      "id": "menu-item-category-utilities",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Utilidades",
+        "text": "Utilidades"
+      }
+    }
+  },
+  "menu-item#decoration": {
+    "props": {
+      "id": "menu-item-category-decoration",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Decoração",
+        "text": "Decoração"
+      }
+    }
+  },
+  "menu-item#bed": {
+    "props": {
+      "id": "menu-item-category-bed",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cama/Mesa",
+        "text": "Cama/Mesa"
+      }
+    }
+  },
+  "menu-item#travel": {
+    "props": {
+      "id": "menu-item-category-travel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Viagem",
+        "text": "Viagem"
+      }
+    }
+  },
+  "menu-item#eletronics": {
+    "props": {
+      "id": "menu-item-category-eletronics",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cds",
+        "noFollow": true,
+        "tagTitle": "Eletro-Eletrônicos",
+        "text": "Eletro-Eletrônicos",
+        "showSubcategories": false
+      }
+    }
+  },
+  "menu-item#wallets": {
+    "props": {
+      "id": "menu-item-category-wallets",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vale-presente",
+        "noFollow": true,
+        "tagTitle": "Carteiras",
+        "text": "Carteiras",
+        "showSubcategories": false
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#submenuBox": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#submenuBox2": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuOne"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu": {
+    "children": [],
+    "props": {
+      "orientation": "vertical",
+      "showSubcategories": true,
+      "blockClass": "submenuColumn"
+    }
+  },
+  "vtex.menu@2.x:menu#submenuOne": {
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

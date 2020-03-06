@@ -1,0 +1,31 @@
+.headerRow--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.headerRow--main-header .headerRowBackground {
+  background-color: #F0F0F0;
+}
+
+.headerRow--main-header-mobile .headerRowBackground {
+  padding: 10px 0px;
+  background: #9d9a01;
+}
+
+.headerRowContainer{
+  justify-content: center;
+}
+
+.headerRow--menu-sticky{
+  border-bottom:1px solid #ddd;
+}
+
+.headerRowContentContainer--logoRow{
+  padding: 10px 0px 20px;
+}
+
+.headerRowBackground--main-header-mobile{border-bottom:1px solid #ddd;}
+
+.lightGreenCart {
+  color: #9d9a01;
+}

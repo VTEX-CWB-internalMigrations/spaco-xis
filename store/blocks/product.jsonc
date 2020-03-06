@@ -1,0 +1,133 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "sandbox#yv",
+      "shelf.relatedProducts"
+    ]
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 3,
+      "marginBottom": 7,
+      "paddingTop": 6,
+      "paddingBottom": 7
+    },
+    "children": [
+      "flex-layout.col#product-image",
+      "flex-layout.col#product-price"
+    ]
+  },
+  "flex-layout.col#product-image": {
+    "props": {
+      "width": "60%",
+      "rowGap": 0,
+      "blockClass": "product-imageContent"
+    },
+    "children": [
+      "product-images",
+      "share#default",
+      "product-description",
+      "product-specifications"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "blockClass": "product-image",
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#product-price": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "product-name",
+      "product-identifier.product",
+      "product-highlights",
+      "availability-subscriber",
+      "sku-selector",
+      "flex-layout.row#product-boxAction",
+      "flex-layout.row#yourviewsStamp",
+      "shipping-simulator"
+    ]
+  },
+  "sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false,
+      "showValueNameForImageVariation": true
+    }
+  },
+  "flex-layout.row#product-boxAction": {
+    "props": {
+      "blockClass": "product-contentPrices"
+    },
+    "children": [
+      "product-price#product-details",
+      "flex-layout.row#buy-button"
+    ]
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "btn-buyProduct"
+    },
+    "children": [
+      "buy-button"
+    ]
+  },
+  "flex-layout.row#yourviewsStamp":{
+    "children":["rich-text#stamp"]
+  },
+  "rich-text#stamp":{
+    "props":{
+      "text": "[![Yourviews](//service.yourviews.com.br/image/9dac565a-23c6-4a83-92b0-a1da84819246/570_112/stamplarge.jpg)](https://www.lojaconfiavel.com/armazemdosopro?target=_blank)"
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": false
+      }
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "labelListPrice": "",
+      "labelSellingPrice": "",
+      "showListPrice": true,
+      "showLabels": true,
+      "showInstallments": true,
+      "showSavings": true,
+      "blockClass": "tst"
+    }
+  },
+  "product-name#default": {
+    "props": {
+      "showBrandName": true,
+      "showSku": false,
+      "showProductReference": false
+    }
+  },
+  "sandbox#yv":{
+    "props":{
+      "initialContent":"<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script><div id='yv-review-quickreview'></div><div id='yv-reviews'></div><!-- Script Yourviews --><script type='text/javascript'>(function () {var yvs = document.createElement('script'); yvs.type = 'text/javascript'; yvs.async = true; yvs.id = '_yvsrc'; yvs.src = '//service.yourviews.com.br/script/9dac565a-23c6-4a83-92b0-a1da84819246/yvapi.js'; var yvs_script = document.getElementsByTagName('script')[0]; yvs_script.parentNode.insertBefore(yvs, yvs_script);})(); </script><!-- /Script Yourviews -->"
+    }
+  }
+}

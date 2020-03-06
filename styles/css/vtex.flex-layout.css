@@ -1,0 +1,94 @@
+.colunaPagamento .flexColChild {
+  height: unset!important;
+}
+
+.flexRow--deals {
+  background-color: #f4f4f4;
+  padding: 14px 0px;
+}
+
+.flexRow--deals  .stretchChildrenWidth {
+  align-items: center;
+  vertical-align: middle;
+}
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+.flexRow--product-contentPrices{border-top:1px solid #ddd;border-bottom: 1px solid #ddd;position: relative;min-height: 105px;}
+
+/* .flexRow--btn-buyProduct button{
+  background: #83c44c;
+  color: #fff;
+  border-radius: 0;
+  text-transform: uppercase;
+  border: 0;
+  padding: 10px;
+  transition: .2s linear;
+} */
+
+/* .flexRow--btn-buyProduct button:hover{
+  background-color: #609831;
+} */
+
+/* .flexRow--btn-buyProduct > div{
+  margin: 0;
+} */
+
+.flexRow--block-questions .stretchChildrenWidth{
+  width: 100% !important;
+  display:flex;
+}
+
+.flexRow--block-questions .stretchChildrenWidth:first-child:hover{
+  background:#eee;
+  display:inline-flex !important;
+}
+
+/* .flexRow--block-questions .stretchChildrenWidth:first-child:hover + .flexRow--block-questions .stretchChildrenWidth{display:none} */
+
+@media only screen and (min-width: 640px) {
+  .flexRow--product-contentPrices{
+    margin: 25px 0;
+    padding: 30px 0;
+  }
+
+  .flexCol--footer-content3{
+    padding-right:70px;
+  }
+  .flexRow--borderFooter{
+    border-bottom:1px solid #ddd;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+  .flexRow--contentFooter2{
+    width:100%;
+    margin: 0 auto 60px;
+  }
+  
+  .flexRow--footerInfo-content .stretchChildrenWidth:last-child{
+    width: 25%;
+    text-align: right;
+  }
+  .flexRow--contentMap{margin-top:20px;}
+
+  .flexRow--contentMap .stretchChildrenWidth:first-child{
+    width:30% !important;
+  }  
+  .flexRow--contentMap .stretchChildrenWidth:last-child{
+    width:70% !important;
+  }  
+  .flexRow--contentMap2 .stretchChildrenWidth:last-child{
+    width:100% !important;
+  }  
+}
+
+@media only screen and (max-width:640px){
+  .flexRow--deals .stretchChildrenWidth{
+    width:50% !important;
+    display: inline-flex;
+  }  
+  .flexRow--mobileCol .stretchChildrenWidth{
+    width:49% !important;
+    display: inline-flex;
+  }
+}

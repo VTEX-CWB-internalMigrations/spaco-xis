@@ -1,0 +1,17 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#security":{
+    "path":"/security"
+  },
+  "store.custom#questions":{
+    "path":"/questions"
+  },
+  "store.custom#events":{
+    "path":"/events"
+  },
+  "store.custom#reviews":{
+    "path":"/reviews"
+  }
+}

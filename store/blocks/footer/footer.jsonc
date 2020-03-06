@@ -1,0 +1,633 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "rich-text#whatsapp",
+      "newsletter",
+      "footer-row#1-desktop",
+      "footer-row#3-desktop"
+    ]
+  },
+  "rich-text#whatsapp": {
+    "props": {
+      "text": "[whatsApp](https://api.whatsapp.com/send?phone=5531988817737&text=&source=&data=?target=_blank)",
+      "blockClass": "whatsapp"
+    }
+  },
+  "newsletter": {
+    "props": {
+      "label": "Assine nossa newsletter!",
+      "placeholder": "Seu email",
+      "submit": "quero receber",
+      "confirmationTitle": "Obrigado",
+      "confirmationText": "Seu email foi registrado"
+    }
+  },
+  // Footer-row-1
+  "footer-row#1-desktop": {
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-row#3-desktop": {
+    "children": [
+      "flex-layout.row#footer3"
+    ]
+  },
+  // Conteúdo
+  "flex-layout.row#footer": {
+    "children": [
+      "flex-layout.col#footerCol1",
+      "flex-layout.col#middleSpacer",
+      "flex-layout.col#footerCol2",
+      "flex-layout.col#middleSpacer",
+      "flex-layout.col#footerCol3",
+      "flex-layout.col#middleSpacer",
+      "flex-layout.col#footerCol4"
+    ],
+    "props": {
+      "blockClass": "borderFooter"
+    }
+  },
+  "flex-layout.col#middleSpacer": {
+    "props": {
+      "width": "3%"
+    }
+  },
+  "flex-layout.row#footer3": {
+    "children": [
+      "flex-layout.col#footer3Col1"
+    ]
+  },
+  "flex-layout.col#footerCol1": {
+    "children": [
+      "rich-text#institucional",
+      "rich-text#sobreEmpresa",
+      "rich-text#segurancaFooter",
+      "rich-text#politica",
+      "rich-text#trocasEdevolucoes",
+      "rich-text#informacoesImportantes",
+      "rich-text#perguntasFrequentes"
+    ],
+    "props": {
+      "blockClass": "footer-contentInstitucional"
+    }
+  },
+  "rich-text#institucional": {
+    "props": {
+      "text": "INSTITUCIONAL",
+      "blockClass": "footer-title"
+    }
+  },
+  "rich-text#sobreEmpresa": {
+    "props": {
+      "text": "[Sobre a empresa](/sobre-a-empresa)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#segurancaFooter": {
+    "props": {
+      "text": "[Segurança](/security)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#politica": {
+    "props": {
+      "text": "[Política](/politica)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#trocasEdevolucoes": {
+    "props": {
+      "text": "[Trocas e devoluções](/trocas-e-devolucoes)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#informacoesImportantes": {
+    "props": {
+      "text": "[Informações importantes](/informacoes-importantes)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#perguntasFrequentes": {
+    "props": {
+      "text": "[Perguntas frequentes](/questions)",
+      "blockClass": "footer-links"
+    }
+  },
+  "flex-layout.col#footerCol2": {
+    "children": [
+      "rich-text#nossasVantagens",
+      "rich-text#footer-entrega",
+      "rich-text#footer-parcelamento",
+      "rich-text#footer-seguranca"
+    ],
+    "props": {
+      "blockClass": "footer-content2"
+    }
+  },
+  "rich-text#nossasVantagens": {
+    "props": {
+      "text": "NOSSAS VANTAGENS",
+      "blockClass": "footer-title"
+    }
+  },
+  "rich-text#footer-entrega": {
+    "props": {
+      "text": "![Entrega para todo o Brasil](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-shipping___54d6786267049088fa665cc1a6831c98.png) Entrega para todo o Brasil",
+      "blockClass": "footer-entrega"
+    }
+  },
+  "rich-text#footer-parcelamento": {
+    "props": {
+      "text": "![Parcele em até 3x sem juros](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-wallet___95380df7f8e412af43a3f8de7e48c80a.png) Parcele em até 3x sem juros",
+      "blockClass": "footer-parcelamento"
+    }
+  },
+  "rich-text#footer-seguranca": {
+    "props": {
+      "text": "![Site 100% seguro](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-security___11eee6d903642579568f1dd38860f6c5.png) Site 100% seguro",
+      "blockClass": "footer-seguranca"
+    }
+  },
+  "flex-layout.col#footerCol3": {
+    "children": [
+      "rich-text#siganos",
+      //"sandbox#face",
+      "social-networks",
+      "rich-text#facebook"
+    ],
+    "props": {
+      "blockClass": "footer-content3"
+    }
+  },
+  "rich-text#siganos": {
+    "props": {
+      "text": "SIGA NOS!",
+      "blockClass": "footer-title"
+    }
+  },
+  "rich-text#facebook": {
+    "props": {
+      "text": "'<iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farmazemdosopro&tabs=timeline&width=340&height=250&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId' width='340' height='250' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media'></iframe>'"
+    }
+  },
+  "rich-text#centralAtendimento": {
+    "props": {
+      "text": "CENTRAL DE ATENDIMENTO",
+      "blockClass": "footer-title"
+    }
+  },
+  "rich-text#footer-endereco": {
+    "props": {
+      "text": "![alt](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-pin-footer___75891396995d4eccbc37c48476f9c929.png) Rod Januário Carneiro 3380, Loja 03/04 - Bosque residencial do Jambreiro - Nova Lima - MG",
+      "blockClass": "footer-endereco"
+    }
+  },
+  "rich-text#footer-telefone": {
+    "props": {
+      "text": "![telefone](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-phone-footer___18f873f62402285b425ca12a13c5743b.png) (31) 3581-7737",
+      "blockClass": "footer-telefone"
+    }
+  },
+  "rich-text#footer-horario": {
+    "props": {
+      "text": "Segunda a sexta-feira de 08h00 as 12h00 (exceto feriados)",
+      "blockClass": "footer-horario"
+    }
+  },
+  "flex-layout.col#footerCol4": {
+    "children": [
+      "rich-text#pagamento",
+      "flex-layout.row#flagPayments",
+      "rich-text#seguranca",
+      "flex-layout.row#certificados"
+    ],
+    "props": {
+      "blockClass": "footer-content4"
+    }
+  },
+  //"sandbox#face":{
+  //"props":{
+  //"initialContent": "<iframe src='www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fanalorencom%2F165203340207714%3Ffref%3Dts&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=626212267424713' scrolling='no' frameborder='0' style='border:none; overflow:hidden; height:258px;' allowtransparency='true'></iframe>"
+  //}
+  //},
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        }
+      ]
+    }
+  },
+  "rich-text#pagamento": {
+    "props": {
+      "text": "PAGAMENTO",
+      "blockClass": "footer-title"
+    }
+  },
+  "flex-layout.row#flagPayments": {
+    "children": [
+      "flex-layout.col#primeira",
+      "flex-layout.col#segunda",
+      "flex-layout.col#terceira",
+      "flex-layout.col#quarta"
+    ],
+    "props": {
+      "blockClass": "colunaPagamento"
+    }
+  },
+  "flex-layout.col#primeira": {
+    "children": [
+      "image#flagOne",
+      "image#flagTwo",
+      "image#flagTeen"
+    ]
+  },
+  "flex-layout.col#segunda": {
+    "children": [
+      "image#flagFour",
+      "image#flagFive",
+      "image#flagNine"
+    ]
+  },
+  "flex-layout.col#terceira": {
+    "children": [
+      "image#flagSeven",
+      "image#flagEight",
+      "image#flagSix"
+    ]
+  },
+  "flex-layout.col#quarta": {
+    "children": [
+      "image#flagThree"
+    ]
+  },
+  "image#flagOne": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_pagseguro.png",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagTwo": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_jcb.png",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagThree": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_hipercard.png",
+      "blockClass": "flagsImgAura"
+    }
+  },
+  "image#flagFour": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_elo.png",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagFive": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_deposito.png",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagSix": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_boleto.png",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagSeven": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_aura.png",
+      "blockClass": "flagsImgAura"
+    }
+  },
+  "image#flagEight": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_band_visa.gif",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagNine": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_band_mastercard.gif",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagTeen": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_band_diners.gif",
+      "blockClass": "flagsImg"
+    }
+  },
+  // Footer 3
+  "flex-layout.col#footer2Col3": {
+    "children": [
+      "rich-text#seguranca",
+      "flex-layout.row#certificados"
+    ]
+  },
+  "rich-text#seguranca": {
+    "props": {
+      "text": "SEGURANÇA",
+      "blockClass": "footer-title"
+    }
+  },
+  "flex-layout.row#certificados": {
+    "children": [
+      "flex-layout.col#certificadoLetsEncrypt",
+      "flex-layout.col#certificadoGoogle"
+    ]
+  },
+  "rich-text#letsEncrypt": {
+    "props": {
+      "text": "![lets Encrypt](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-letsEncrypt___76b55795605e189b1e6c4416f2587e16.png)"
+    }
+  },
+  "flex-layout.col#certificadoLetsEncrypt": {
+    "children": [
+      "rich-text#letsEncrypt",
+      "rich-text#yourviews"
+    ]
+  },
+  "flex-layout.col#certificadoGoogle": {
+    "children": [
+      "rich-text#google"
+    ]
+  },
+  "rich-text#google": {
+    "props": {
+      "text": "![Google](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-google___b4118dcafc4103591c63352301abf8d0.png)"
+    }
+  },
+  "rich-text#yourviews": {
+    "props": {
+      "text": "![YourViews](//service.yourviews.com.br/Image/9dac565a-23c6-4a83-92b0-a1da84819246/Footer.jpg)"
+    }
+  },
+  "flex-layout.col#footer3Col1": {
+    "children": [
+      "flex-layout.row#footerInfo"
+    ]
+  },
+  "flex-layout.row#footerInfo": {
+    "children": [
+      "flex-layout.col#footerTextInfo",
+      "rich-text#direitosReservados",
+      "flex-layout.col#footerLinkDev"
+    ],
+    "props": {
+      "blockClass": "footerInfo-content"
+    }
+  },
+  "flex-layout.col#footerTextInfo": {
+    "children": [
+      "rich-text#direitos"
+    ]
+  },
+  "rich-text#direitos": {
+    "props": {
+      "text": "Copyright Martin Masver Instrumentos Musicais Ltda. CNPJ: 13.416.311/0001-88. Endereço: Rua Oscar Freire, 2590 - Pinheiros - São Paulo - SP / CEP: 05409-012",
+      "blockClass": "text-direitos"
+    }
+  },
+  "rich-text#direitosReservados": {
+    "props": {
+      "text": "® ARMAZÉM DO SOPRO. TODOS OS DIREITOS RESERVADOS.",
+      "blockClass": "text-direitosReservados"
+    }
+  },
+  "flex-layout.col#footerLinkDev": {
+    "children": [
+      "flex-layout.row#contentLinks"
+    ]
+  },
+  "flex-layout.row#contentLinks": {
+    "children": [
+      "image#linkVtex"
+    ]
+  },
+  "image#linkVtex": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/VTEX_Logo.svg%20(2)___c52f88219d5eb3573e9ca1f38901033c.png",
+      "maxWidth": "120px",
+      "alt": "Vtex",
+      "link": "https://www.vtex.com.br"
+    }
+  },
+  // Footer mobile
+  "footer-layout.mobile": {
+    "children": [
+      "newsletter",
+      "footer-row#1-mobile",
+      "footer-row#1-1-mobile",
+      "footer-row#2-mobile",
+      "footer-row#3-mobile",
+      "footer-row#4-mobile"
+    ]
+  },
+  "footer-row#1-mobile": {
+    "children": [
+      "flex-layout.row#flagPayments"
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "footer-row#1-1-mobile": {
+    "children": [
+      "social-networks"
+    ]
+  },
+  "footer-row#2-mobile": {
+    "children": [
+      "flex-layout.row#actionsFooter"
+    ]
+  },
+  "flex-layout.row#actionsFooter": {
+    "children": [
+      "flex-layout.col#footerCol1",
+      "flex-layout.col#footerCol2"
+    ],
+    "props": {
+      "blockClass": "mobileCol"
+    }
+  },
+  "flex-layout.col#footerCol1": {
+    "children": [
+      "rich-text#institucional",
+      "rich-text#sobreEmpresa",
+      "rich-text#segurancaFooter",
+      "rich-text#politica",
+      "rich-text#trocasEdevolucoes",
+      "rich-text#lojaFisica",
+      "rich-text#lutheria",
+      "rich-text#programaDeFidelidade",
+      "rich-text#contato",
+      "rich-text#evento",
+      "rich-text#perguntasFrequentes"
+    ],
+    "props": {
+      "blockClass": "footer-contentInstitucional"
+    }
+  },
+  "rich-text#institucional": {
+    "props": {
+      "text": "INSTITUCIONAL",
+      "blockClass": "footer-title"
+    }
+  },
+  "rich-text#sobreEmpresa": {
+    "props": {
+      "text": "[Sobre a empresa](/sobre-a-empresa)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#segurancaFooter": {
+    "props": {
+      "text": "[Segurança](/security)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#politica": {
+    "props": {
+      "text": "[Política](/politica)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#trocasEdevolucoes": {
+    "props": {
+      "text": "[Trocas e devoluções](/trocas-e-devolucoes)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#lojaFisica": {
+    "props": {
+      "text": "[Loja física](/loja-fisica)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#lutheria": {
+    "props": {
+      "text": "[Lutheria](/lutheria)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#programaDeFidelidade": {
+    "props": {
+      "text": "[Programa de fidelidade](/programa-de-fidelidade)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#contato": {
+    "props": {
+      "text": "[Contato](/contato)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#evento": {
+    "props": {
+      "text": "[Eventos](/eventos)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#perguntasFrequentes": {
+    "props": {
+      "text": "[Perguntas frequentes](/perguntas-frequentes)",
+      "blockClass": "footer-links"
+    }
+  },
+  // coluna 2
+  "flex-layout.col#footerCol2": {
+    "children": [
+      "rich-text#centralAtendimento",
+      "rich-text#footer-endereco",
+      "rich-text#footer-telefone",
+      "rich-text#footer-horario",
+      "rich-text#googleMaps"
+    ],
+    "props": {
+      "blockClass": "footer-content2"
+    }
+  },
+  "rich-text#centralAtendimento": {
+    "props": {
+      "text": "CENTRAL DE ATENDIMENTO",
+      "blockClass": "footer-title"
+    }
+  },
+  "rich-text#footer-endereco": {
+    "props": {
+      "text": "Av. Anhaguera, nº 3.745 Setor Leste Universitário Goiânia - Goiás - Brasil CEP:74610-010",
+      "blockClass": "footer-endereco"
+    }
+  },
+  "rich-text#footer-telefone": {
+    "props": {
+      "text": "(31) 3581-7737 | (31) 98881-7737",
+      "blockClass": "footer-telefone"
+    }
+  },
+  "rich-text#googleMaps": {
+    "props": {
+      "blockClass": "mapsBox",
+      "text": "'<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.979345339038!2d-46.678739!3d-23.550665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e2c3eb3f12f1dcd!2sArmaz%C3%A9m%20do%20Sopro!5e0!3m2!1spt-BR!2sbr!4v1576082778563!5m2!1spt-BR!2sbr' frameborder='0' style='border:0;' allowfullscreen=''></iframe>'"
+    }
+  },
+  // coluna 3
+  "footer-row#3-mobile": {
+    "children": [
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "SEU TEXTO AQUI",
+      "blockClass": "footer"
+    }
+  },
+  // Coluna 4
+  "footer-row#4-mobile": {
+    "children": [
+      "image#linkVtex"
+    ],
+    "props": {
+      "blockClass": "imgVtex"
+    }
+  },
+  "image#linkVtex": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/VTEX_Logo.svg%20(2)___c52f88219d5eb3573e9ca1f38901033c.png",
+      "maxWidth": "120px",
+      "alt": "Vtex",
+      "link": "https://www.vtex.com.br"
+    }
+  }
+}

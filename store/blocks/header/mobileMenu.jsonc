@@ -1,0 +1,254 @@
+{
+    "drawer": {
+        "children": [
+            "vtex.menu@2.x:menu#mobileMain"
+        ]
+    },
+    "vtex.menu@2.x:menu#mobileMain": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileMenu"
+        }
+    },
+    "menu-item#clarinetesMob": {
+        "props": {
+            "id": "menu-item-category-clarinetes-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/clarinetes",
+                "noFollow": true,
+                "tagTitle": "Clarinetes",
+                "text": "Clarinetes"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#clarinetes"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#clarinetes": {
+        "children": [
+            "vtex.menu@2.x:menu#clarinetesAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#clarinetesAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    "menu-item#saxofonesMob": {
+        "props": {
+            "id": "menu-item-category-saxofones-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/saxofones",
+                "noFollow": true,
+                "tagTitle": "Saxofones",
+                "text": "Saxofones"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#saxofones"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#saxofones": {
+        "children": [
+            "vtex.menu@2.x:menu#saxofonesAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#saxofonesAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    "menu-item#oboesMob": {
+        "props": {
+            "id": "menu-item-category-oboes-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/oboes",
+                "noFollow": true,
+                "tagTitle": "Oboés",
+                "text": "Oboés"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#oboesMob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#oboesMob": {
+        "children": [
+            "vtex.menu@2.x:menu#oboesAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#oboesAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    "menu-item#fagotesMob": {
+        "props": {
+            "id": "menu-item-category-fagotes-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/fagotes",
+                "noFollow": true,
+                "tagTitle": "Fagotes",
+                "text": "Fagotes"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#fagotesMob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#fagotesMob": {
+        "children": [
+            "vtex.menu@2.x:menu#fagotesAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#fagotesAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    "menu-item#flautasMob": {
+        "props": {
+            "id": "menu-item-category-flautas-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/flautas",
+                "noFollow": true,
+                "tagTitle": "Flautas",
+                "text": "Flautas"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#flautasMob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#flautasMob": {
+        "children": [
+            "vtex.menu@2.x:menu#flautasAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#flautasAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    "menu-item#metaisMob": {
+        "props": {
+            "id": "menu-item-category-metais-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/metais",
+                "noFollow": true,
+                "tagTitle": "Metais",
+                "text": "Metais"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#metaisMob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#metaisMob": {
+        "children": [
+            "vtex.menu@2.x:menu#metaisAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#metaisAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    "menu-item#marcasMob": {
+        "props": {
+            "id": "menu-item-category-marcas-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/marcas",
+                "noFollow": true,
+                "tagTitle": "Marcas",
+                "text": "Marcas"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#marcasMob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#marcasMob": {
+        "children": [
+            "vtex.menu@2.x:menu#marcasAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#marcasAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    "menu-item#cdsMob": {
+        "props": {
+            "id": "menu-item-category-cds-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cds",
+                "noFollow": true,
+                "tagTitle": "CDS",
+                "text": "CDS"
+            }
+        }
+    },
+    "menu-item#valePresenteMob": {
+        "props": {
+            "id": "menu-item-category-vale-presente-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/vale-presente",
+                "noFollow": true,
+                "tagTitle": "Vale Presente",
+                "text": "Vale Presente"
+            }
+        }
+    }
+}

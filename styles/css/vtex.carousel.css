@@ -1,0 +1,19 @@
+.containerImg {
+  background-color: #fff;
+  max-width: 1520px;
+  margin: 0 auto;
+  max-height: inherit;
+}
+
+.dot{
+  width:15px;
+  height: 15px;
+}
+
+.imgRegular {
+  max-height: 650px!important;
+}
+
+.slide {
+  max-height: 650px!important;
+}

@@ -1,0 +1,277 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container--padding-1{
+  padding:0 2em 0 0;
+}
+
+.container--deals .paragraph{
+  color: #d12e2e;
+  font-size: .7rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container--footer-title .paragraph{
+  font-size: 15px;
+  color: #c6b550;  
+  font-weight: bold;
+}
+
+.container--alert{justify-content: center;}
+
+.container--alert .paragraph{
+  color: #004085;
+  background-color: #cce5ff;
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #b8daff;
+  border-radius: .25rem;
+  font-size:12px;  
+}
+
+.container--footer-links .paragraph{
+  margin: 0 0 10px;
+}
+.container--footer-links .paragraph .link{
+  font-size: 15px;
+  color: #555555;   
+  text-decoration: none;
+}
+
+.container--footer-entrega .paragraph,
+.container--footer-parcelamento .paragraph,
+.container--footer-seguranca .paragraph{
+    color: #00abb4;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.container--footer-entrega .paragraph,
+.container--footer-parcelamento .paragraph,
+.container--footer-seguranca .paragraph{
+  padding: 10px;
+}
+
+.container--footer-responsavel .paragraph{
+  margin-top:0;
+}
+
+.container--text-direitos .paragraph{
+  clear: both;
+  position: relative;
+  font-size: 12px;
+  color: #888888;
+  text-align: justify;  
+}
+
+.container--text-direitosReservados{
+  font-size:12px;
+  text-align: center;
+  color:#888;
+  justify-content: center;
+}
+
+.container--title-default{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container--title-default .paragraph{
+  font-size: 23px;
+  border: 1px solid #c6b550;
+  text-transform: uppercase;
+  color: #c6b550;
+  font-weight: 700;
+  width: auto;
+  margin: 20px 0;
+  padding: 5px 20px;
+}
+
+.container--infoPageContent .paragraph{
+  text-align: justify;
+}
+
+.container--infoPageContent .paragraph .strong{
+  color: #8a8a8a;
+  font-size:1rem;
+}
+
+.container--encontreNos .paragraph{text-align: center;}
+.container--encontreNos .paragraph .strong{
+  color:#5f84f2;
+  font-size:1em;
+  display: block;
+  text-align: center;
+  margin: 0 auto;   
+}
+
+.container--footer .paragraph{
+  font-size: .8rem;
+  color:#8a8a8a;
+}
+
+.container--whatsapp{
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  background: url(https://armazemdosopro.vteximg.com.br/arquivos/whatsapp.png) no-repeat scroll 50% #4dc247;
+  text-indent: -9999px;
+  color: transparent;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 100%;
+  box-shadow: 2px 2px 5px #8a8a8a;
+  z-index: 9;
+}
+
+.container--footer-endereco, .container--footer-telefone, .container--footer-whatsapp, .container--footer-horario{font-size:.8rem;}
+
+.container--title-section .paragraph{color:#474747;font-size:.9rem;text-transform: uppercase;font-weight: bold;}
+
+.container--questionText{
+  position: relative;
+  max-height: 50px;
+  overflow-y: hidden;
+  transition: 1.5s linear;
+  cursor: pointer;
+}
+.container--questionText:hover{
+  max-height: 1000px;
+}
+
+.link--footer-title{
+  color: #3f3f46;
+  text-decoration: none;
+}
+
+.container--questionText .headingLevel4{
+    margin: 0px;
+    padding: 10px 10px;
+    background: #3f3e00;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.container--questionText .paragraph{
+  margin-top: 50px;
+}
+
+.paragraph--whatsapp .link {
+  display: block;
+  height: 50px;
+  width: 50px;
+  bottom: 15px;
+  position: fixed;
+}
+
+.paragraph--mapsBox{
+  display: none;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--footer-endereco, .container--footer-telefone, .container--footer-whatsapp, .container--footer-horario{font-size:1rem;}
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .paragraph--mapsBox{
+    display: block;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+
+  .container--infoPageContent .heading-level-6{position: relative;margin:10px 0;}
+
+  .container--infoPageContent .heading-level-6 .strong{
+    color:#8a8a8a;
+    background:#fff;
+    padding-right:10px; 
+    position: relative;
+  }  
+  .container--footer .paragraph{
+    font-size: 1rem;
+  }
+
+  .container--deals .paragraph{
+    font-size: 18px;
+  }  
+
+}
