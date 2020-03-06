@@ -42,6 +42,10 @@
     margin-left: -6px;
 }
 
+.styledLinkContent--submenuColumn{
+    padding: 10px 0px;
+}
+
 @media only screen and (min-width: 80em){
     .menuContainer { justify-content: center; }
     .menuContainer--submenuColumn {
@@ -51,7 +55,7 @@
         margin: 0;
         padding: 0;
         max-height: 400px;
-        width: 580px!important;
+        width: 243px;
     }
     .styledLink{
         color:#fff;
