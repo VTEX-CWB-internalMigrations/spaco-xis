@@ -20,7 +20,7 @@
   transition: 1s;
 }
 .infoCardContainer--footimagecard:hover .infoCardTextContainer{
-  background: #3f3e00b8;
+  background: #0c237bb8;
   transition: 1s;
   outline: 2px solid white;
   outline-offset: -30px;
