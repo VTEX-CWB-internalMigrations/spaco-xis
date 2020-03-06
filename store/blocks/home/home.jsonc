@@ -3,7 +3,7 @@
     "blocks": [
       "carousel#One",
       "image#whatsapp",
-      "slider-layout#brands",
+      //"slider-layout#brands",
       "shelf#showcase01",
       "shelf#showcase02",
       "flex-layout.row#banners",
