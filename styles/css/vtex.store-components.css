@@ -195,7 +195,7 @@
   }
 
   .imageElement--WhatsImage {
-    display: unset;
+    display: block;
   }
 
   .newsletter .container {
