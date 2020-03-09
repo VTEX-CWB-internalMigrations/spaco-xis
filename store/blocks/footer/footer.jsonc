@@ -7,7 +7,6 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "rich-text#whatsapp",
       "newsletter",
       "footer-row#1-desktop",
       "footer-row#3-desktop"
@@ -31,7 +30,9 @@
   // Footer-row-1
   "footer-row#1-desktop": {
     "children": [
-      "flex-layout.row#footer"
+      "footer-spacer",
+      "flex-layout.row#footer",
+      "footer-spacer"
     ]
   },
   "footer-row#3-desktop": {
@@ -67,15 +68,16 @@
   "flex-layout.col#footerCol1": {
     "children": [
       "rich-text#institucional",
-      "rich-text#sobreEmpresa",
-      "rich-text#segurancaFooter",
-      "rich-text#politica",
-      "rich-text#trocasEdevolucoes",
-      "rich-text#informacoesImportantes",
-      "rich-text#perguntasFrequentes"
+      "vtex.menu@2.x:menu#institutionalMenu"
     ],
     "props": {
       "blockClass": "footer-contentInstitucional"
+    }
+  },
+  "vtex.menu@2.x:menu#institutionalMenu": {
+    "props": {
+      "blockClass": "footer-menu",
+      "orientation": "vertical"
     }
   },
   "rich-text#institucional": {
@@ -158,7 +160,6 @@
   "flex-layout.col#footerCol3": {
     "children": [
       "rich-text#siganos",
-      //"sandbox#face",
       "social-networks",
       "rich-text#facebook"
     ],
@@ -174,6 +175,7 @@
   },
   "rich-text#facebook": {
     "props": {
+      "blockClass": "facebookIframe",
       "text": "'<iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farmazemdosopro&tabs=timeline&width=340&height=250&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId' width='340' height='250' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media'></iframe>'"
     }
   },
@@ -239,109 +241,13 @@
   },
   "flex-layout.row#flagPayments": {
     "children": [
-      "flex-layout.col#primeira",
-      "flex-layout.col#segunda",
-      "flex-layout.col#terceira",
-      "flex-layout.col#quarta"
-    ],
-    "props": {
-      "blockClass": "colunaPagamento"
-    }
-  },
-  "flex-layout.col#primeira": {
-    "children": [
-      "image#flagOne",
-      "image#flagTwo",
-      "image#flagTeen"
+      "image#paymentImage"
     ]
   },
-  "flex-layout.col#segunda": {
-    "children": [
-      "image#flagFour",
-      "image#flagFive",
-      "image#flagNine"
-    ]
-  },
-  "flex-layout.col#terceira": {
-    "children": [
-      "image#flagSeven",
-      "image#flagEight",
-      "image#flagSix"
-    ]
-  },
-  "flex-layout.col#quarta": {
-    "children": [
-      "image#flagThree"
-    ]
-  },
-  "image#flagOne": {
+  "image#paymentImage": {
     "props": {
-      "alt": "Formas de pagamento",
-      "src": "/arquivos/rodape_pag_pagseguro.png",
-      "blockClass": "flagsImg"
-    }
-  },
-  "image#flagTwo": {
-    "props": {
-      "alt": "Formas de pagamento",
-      "src": "/arquivos/rodape_pag_jcb.png",
-      "blockClass": "flagsImg"
-    }
-  },
-  "image#flagThree": {
-    "props": {
-      "alt": "Formas de pagamento",
-      "src": "/arquivos/rodape_pag_hipercard.png",
-      "blockClass": "flagsImgAura"
-    }
-  },
-  "image#flagFour": {
-    "props": {
-      "alt": "Formas de pagamento",
-      "src": "/arquivos/rodape_pag_elo.png",
-      "blockClass": "flagsImg"
-    }
-  },
-  "image#flagFive": {
-    "props": {
-      "alt": "Formas de pagamento",
-      "src": "/arquivos/rodape_pag_deposito.png",
-      "blockClass": "flagsImg"
-    }
-  },
-  "image#flagSix": {
-    "props": {
-      "alt": "Formas de pagamento",
-      "src": "/arquivos/rodape_pag_boleto.png",
-      "blockClass": "flagsImg"
-    }
-  },
-  "image#flagSeven": {
-    "props": {
-      "alt": "Formas de pagamento",
-      "src": "/arquivos/rodape_pag_aura.png",
-      "blockClass": "flagsImgAura"
-    }
-  },
-  "image#flagEight": {
-    "props": {
-      "alt": "Formas de pagamento",
-      "src": "/arquivos/rodape_band_visa.gif",
-      "blockClass": "flagsImg"
-    }
-  },
-  "image#flagNine": {
-    "props": {
-      "alt": "Formas de pagamento",
-      "src": "/arquivos/rodape_band_mastercard.gif",
-      "blockClass": "flagsImg"
-    }
-  },
-  "image#flagTeen": {
-    "props": {
-      "alt": "Formas de pagamento",
-      "src": "/arquivos/rodape_band_diners.gif",
-      "blockClass": "flagsImg"
+      "src": "",
+      "alt": "Payment Images"
     }
   },
   // Footer 3
@@ -370,8 +276,7 @@
   },
   "flex-layout.col#certificadoLetsEncrypt": {
     "children": [
-      "rich-text#letsEncrypt",
-      "rich-text#yourviews"
+      "rich-text#letsEncrypt"
     ]
   },
   "flex-layout.col#certificadoGoogle": {
@@ -382,11 +287,6 @@
   "rich-text#google": {
     "props": {
       "text": "![Google](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-google___b4118dcafc4103591c63352301abf8d0.png)"
-    }
-  },
-  "rich-text#yourviews": {
-    "props": {
-      "text": "![YourViews](//service.yourviews.com.br/Image/9dac565a-23c6-4a83-92b0-a1da84819246/Footer.jpg)"
     }
   },
   "flex-layout.col#footer3Col1": {
@@ -431,14 +331,6 @@
       "image#linkVtex"
     ]
   },
-  "image#linkVtex": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/VTEX_Logo.svg%20(2)___c52f88219d5eb3573e9ca1f38901033c.png",
-      "maxWidth": "120px",
-      "alt": "Vtex",
-      "link": "https://www.vtex.com.br"
-    }
-  },
   // Footer mobile
   "footer-layout.mobile": {
     "children": [
@@ -475,54 +367,6 @@
     ],
     "props": {
       "blockClass": "mobileCol"
-    }
-  },
-  "flex-layout.col#footerCol1": {
-    "children": [
-      "rich-text#institucional",
-      "rich-text#sobreEmpresa",
-      "rich-text#segurancaFooter",
-      "rich-text#politica",
-      "rich-text#trocasEdevolucoes",
-      "rich-text#lojaFisica",
-      "rich-text#lutheria",
-      "rich-text#programaDeFidelidade",
-      "rich-text#contato",
-      "rich-text#evento",
-      "rich-text#perguntasFrequentes"
-    ],
-    "props": {
-      "blockClass": "footer-contentInstitucional"
-    }
-  },
-  "rich-text#institucional": {
-    "props": {
-      "text": "INSTITUCIONAL",
-      "blockClass": "footer-title"
-    }
-  },
-  "rich-text#sobreEmpresa": {
-    "props": {
-      "text": "[Sobre a empresa](/sobre-a-empresa)",
-      "blockClass": "footer-links"
-    }
-  },
-  "rich-text#segurancaFooter": {
-    "props": {
-      "text": "[Segurança](/security)",
-      "blockClass": "footer-links"
-    }
-  },
-  "rich-text#politica": {
-    "props": {
-      "text": "[Política](/politica)",
-      "blockClass": "footer-links"
-    }
-  },
-  "rich-text#trocasEdevolucoes": {
-    "props": {
-      "text": "[Trocas e devoluções](/trocas-e-devolucoes)",
-      "blockClass": "footer-links"
     }
   },
   "rich-text#lojaFisica": {

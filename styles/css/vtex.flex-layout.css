@@ -44,6 +44,10 @@
   display:inline-flex !important;
 }
 
+.flexColChild--footer-contentInstitucional , .flexColChild--footer-content3{
+  height: auto !important;
+}
+
 /* .flexRow--block-questions .stretchChildrenWidth:first-child:hover + .flexRow--block-questions .stretchChildrenWidth{display:none} */
 
 @media only screen and (min-width: 640px) {

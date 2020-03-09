@@ -70,7 +70,6 @@
 
 .container--footer-title .paragraph{
   font-size: 15px;
-  color: #c6b550;  
   font-weight: bold;
 }
 
@@ -230,6 +229,11 @@
 
 .paragraph--mapsBox{
   display: none;
+}
+
+.paragraph--facebookIframe{
+  font-size: 0px;
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 640px) {

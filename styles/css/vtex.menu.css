@@ -22,7 +22,7 @@
 }
 
 .menuItem .styledLink:hover {
-    color: #ffffff!important;
+    color: #ffffff;
 }
 
 .menuContainer--mobileMenu .menuContainer--mobileSubmenu .styledLinkContainer{
@@ -44,6 +44,28 @@
 
 .styledLinkContent--submenuColumn{
     padding: 10px 0px;
+}
+
+.styledLinkContent--footer-menu{
+    font-size: 16px;
+    text-transform: none;
+    color: #000;
+    font-weight: 100;
+}
+
+.styledLinkContent--footer-menu{
+    font-size: 16px;
+    text-transform: none;
+    color: #000;
+    font-weight: 100;
+}
+
+.menuItem .styledLink--footer-menu:hover{
+    color: #000;
+}
+
+.menuItem--footer-menu:hover{
+    background: transparent;
 }
 
 @media only screen and (min-width: 80em){
@@ -73,6 +95,6 @@
         transition: all ease 0.3s;
     }
     .submenu .menuItem .styledLink:hover{
-        color: #dcc15f;
+        color: #fff;
     }
 }
