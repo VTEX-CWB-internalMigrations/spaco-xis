@@ -1,11 +1,4 @@
 .container {background:transparent;}
-.label {
-    width: 25px;
-    height: 24px;
-    display: block;    
-    text-indent: -9999px;
-    background: url(https://armazemdosopro.vteximg.com.br/arquivos/user-icon.png) no-repeat center center scroll transparent;
-}
 
 .accountOptions :global(.vtex-button) {
     color: #fff;
@@ -30,6 +23,10 @@
     color: #ffffff;
 }
 
+.profileIcon{
+    color: #042e6f;
+}
+
 @media only screen and (min-width: 640px) {
     .container{
         background:#0e77bd;
@@ -40,6 +37,9 @@
         text-indent: inherit;
         width: auto;
         height: auto;
+        color: #fff;
+    }
+    .profileIcon{
         color: #fff;
     }
 }

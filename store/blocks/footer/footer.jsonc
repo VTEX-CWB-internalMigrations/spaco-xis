@@ -37,7 +37,9 @@
   },
   "footer-row#3-desktop": {
     "children": [
-      "flex-layout.row#footer3"
+      "footer-spacer",
+      "flex-layout.row#footer3",
+      "footer-spacer"
     ]
   },
   // Conteúdo
@@ -337,7 +339,9 @@
       "newsletter",
       "footer-row#1-mobile",
       "footer-row#1-1-mobile",
-      "footer-row#2-mobile",
+      "rich-text#institucional",
+      "vtex.menu@2.x:menu#institutionalMenu",
+      "rich-text#centralAtendimento",
       "footer-row#3-mobile",
       "footer-row#4-mobile"
     ]

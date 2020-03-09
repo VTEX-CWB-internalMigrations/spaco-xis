@@ -6,19 +6,31 @@
 }
 
 .container :global(.vtex-button) {
-    color: #ffffff;
-    background: #00ad09;
+    background: transparent;
+}
+
+.cartIcon{
+    color: #042e6f;
 }
 
 .itemDeleteIcon :global(.vtex-button):focus,
 .itemDeleteIcon :global(.vtex-button):hover {
     background: #ffffff;
 }
+.label{
+    display: none
+}
 
 @media only screen and (min-width: 80em) {
     .label{
         display: block;
         position: relative;
+    }
+    .label{
+        display: block;
+    }
+    .cartIcon{
+        color: #fff;
     }
     .badge{
         top: -18px;
@@ -28,5 +40,9 @@
     }
     .contentSmall{
         border: 0;
+    }
+    .container :global(.vtex-button) {
+        color: #ffffff;
+        background: #00ad09;
     }
 }

@@ -93,7 +93,8 @@
       "accessCodeTitle": "Receber código",
       "emailPraceholder": "E-mail",
       "passwordPlaceholder": "Senha",
-      "showPasswordVerificationIntoTooltip": true
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
     }
   },
   "header-layout.mobile": {

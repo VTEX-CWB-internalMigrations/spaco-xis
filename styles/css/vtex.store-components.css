@@ -1,7 +1,6 @@
 .infoCardContainer--footimagecard {
   height: 300px;
-  position: relative;
-  width: 95%;
+  position: relative
 }
 
 .infoCardContainer--footimagecard .infoCardHeadline{
@@ -188,7 +187,9 @@
 }
 
 @media only screen and (min-width: 640px){
-
+  .infoCardContainer--footimagecard {
+    width: 95%;
+  }
   .imageElement--brandsSlider{
     max-width: 100%;
   }

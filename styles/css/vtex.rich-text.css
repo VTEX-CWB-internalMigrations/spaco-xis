@@ -71,6 +71,7 @@
 .container--footer-title .paragraph{
   font-size: 15px;
   font-weight: bold;
+  margin: 20px 10px;
 }
 
 .container--alert{justify-content: center;}
@@ -242,6 +243,11 @@
     font-size: 40px;
     line-height: 3rem;
   }
+
+  .container--footer-title .paragraph{
+    margin: 0px;
+  }
+  
 
   .paragraph--mapsBox{
     display: block;

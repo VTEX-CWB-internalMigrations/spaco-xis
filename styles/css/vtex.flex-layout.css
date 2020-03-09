@@ -71,7 +71,7 @@
   
   .flexRow--footerInfo-content .stretchChildrenWidth:last-child{
     width: 25%;
-    text-align: right;
+    text-align: center;
   }
   .flexRow--contentMap{margin-top:20px;}
 

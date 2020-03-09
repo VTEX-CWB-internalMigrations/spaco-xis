@@ -3,7 +3,8 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "sandbox#yv",
+      "product-description",
+      "product-specifications",
       "shelf.relatedProducts"
     ]
   },
@@ -37,9 +38,7 @@
     },
     "children": [
       "product-images",
-      "share#default",
-      "product-description",
-      "product-specifications"
+      "share#default"
     ]
   },
   "product-images": {
@@ -60,7 +59,6 @@
       "availability-subscriber",
       "sku-selector",
       "flex-layout.row#product-boxAction",
-      "flex-layout.row#yourviewsStamp",
       "shipping-simulator"
     ]
   },
@@ -88,14 +86,6 @@
     "children": [
       "buy-button"
     ]
-  },
-  "flex-layout.row#yourviewsStamp":{
-    "children":["rich-text#stamp"]
-  },
-  "rich-text#stamp":{
-    "props":{
-      "text": "[![Yourviews](//service.yourviews.com.br/image/9dac565a-23c6-4a83-92b0-a1da84819246/570_112/stamplarge.jpg)](https://www.lojaconfiavel.com/armazemdosopro?target=_blank)"
-    }
   },
   "share#default": {
     "props": {
@@ -125,9 +115,9 @@
       "showProductReference": false
     }
   },
-  "sandbox#yv":{
-    "props":{
-      "initialContent":"<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script><div id='yv-review-quickreview'></div><div id='yv-reviews'></div><!-- Script Yourviews --><script type='text/javascript'>(function () {var yvs = document.createElement('script'); yvs.type = 'text/javascript'; yvs.async = true; yvs.id = '_yvsrc'; yvs.src = '//service.yourviews.com.br/script/9dac565a-23c6-4a83-92b0-a1da84819246/yvapi.js'; var yvs_script = document.getElementsByTagName('script')[0]; yvs_script.parentNode.insertBefore(yvs, yvs_script);})(); </script><!-- /Script Yourviews -->"
+  "sandbox#yv": {
+    "props": {
+      "initialContent": "<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script><div id='yv-review-quickreview'></div><div id='yv-reviews'></div><!-- Script Yourviews --><script type='text/javascript'>(function () {var yvs = document.createElement('script'); yvs.type = 'text/javascript'; yvs.async = true; yvs.id = '_yvsrc'; yvs.src = '//service.yourviews.com.br/script/9dac565a-23c6-4a83-92b0-a1da84819246/yvapi.js'; var yvs_script = document.getElementsByTagName('script')[0]; yvs_script.parentNode.insertBefore(yvs, yvs_script);})(); </script><!-- /Script Yourviews -->"
     }
   }
 }
