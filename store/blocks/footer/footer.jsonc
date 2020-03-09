@@ -342,6 +342,7 @@
       "rich-text#institucional",
       "vtex.menu@2.x:menu#institutionalMenu",
       "rich-text#centralAtendimento",
+      "rich-text#footer-endereco",
       "footer-row#3-mobile",
       "footer-row#4-mobile"
     ]

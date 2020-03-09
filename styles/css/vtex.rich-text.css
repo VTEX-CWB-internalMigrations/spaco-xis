@@ -71,7 +71,7 @@
 .container--footer-title .paragraph{
   font-size: 15px;
   font-weight: bold;
-  margin: 20px 10px;
+  margin: 20px 10px 0px;
 }
 
 .container--alert{justify-content: center;}
