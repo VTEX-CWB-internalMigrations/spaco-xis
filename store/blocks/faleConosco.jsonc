@@ -1,0 +1,24 @@
+{
+    "store.custom#faleconoscoTest": {
+        "blocks": [
+            "rich-text#oi",
+            "flex-layout.row#form"
+        ]
+    },
+    "rich-text#oi": {
+        "props": {
+            "text": "Your Form Here"
+        }
+    },
+    "flex-layout.row#form": {
+        "children": [
+            "form#faleConosco"
+        ]
+    },
+    "form#faleConosco": {
+        "props": {
+            "entity": "faleConosco",
+            "schema": "Talk"
+        }
+    }
+}

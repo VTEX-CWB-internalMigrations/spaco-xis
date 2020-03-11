@@ -3,9 +3,28 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "product-description",
-      "product-specifications",
+      "flex-layout.row#productInfos",
+      "flex-layout.row#productInfos2",
       "shelf.relatedProducts"
+    ]
+  },
+  "flex-layout.col#sideSpace": {
+    "props": {
+      "width": "10%"
+    }
+  },
+  "flex-layout.row#productInfos": {
+    "children": [
+      "flex-layout.col#sideSpace",
+      "product-description",
+      "flex-layout.col#sideSpace"
+    ]
+  },
+  "flex-layout.row#productInfos2": {
+    "children": [
+      "flex-layout.col#sideSpace",
+      "product-specifications",
+      "flex-layout.col#sideSpace"
     ]
   },
   "flex-layout.row#product-breadcrumb": {
